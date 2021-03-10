@@ -3,7 +3,7 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-ESX.RegisterServerCallback('swiatelka:getItemAmount', function(source, cb, item)
+ESX.RegisterServerCallback('BNJ:getItemAmount', function(source, cb, item)
 
     local xPlayer = ESX.GetPlayerFromId(source)
 
