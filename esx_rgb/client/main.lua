@@ -128,7 +128,7 @@ Citizen.CreateThread(function()
 
     if IsControlJustReleased(0, Keys['F1']) and (IsPedInAnyVehicle(ply, true)) and not isDead and not ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'lights_colors') then
 
-      ESX.TriggerServerCallback('swiatelka:getItemAmount', function(qtty)
+      ESX.TriggerServerCallback('BNJ:getItemAmount', function(qtty)
 
 		  if qtty > 0 then
 
